@@ -24,3 +24,9 @@ The design synthesizes efficiently onto the FPGA fabric utilizing core primitive
 ![3-Bit Counter Waveform]
 <img width="950" height="200" alt="image" src="https://github.com/user-attachments/assets/6b8efef7-bb09-46cd-8f44-3efab806d45a" />
 
+## Hardware Synthesis & Architecture
+The design translates efficiently into low-level FPGA fabric primitives during synthesis[cite: 10]:
+* **Storage Elements:** $3\times$ `FDRE` primitives (D-type flip-flops featuring clock enable and synchronous reset)[cite: 10].
+* **Combinational Logic:** LUT2, LUT3, and LUT4 blocks configured to execute incremental arithmetic and reset routing logic[cite: 10].
+* **Clock & Control Tree:** Buffered cleanly via dedicated input buffers (`IBUF`) and global clock buffers (`BUFG`)[cite: 10].
+<img width="760" height="371" alt="image" src="https://github.com/user-attachments/assets/3752a5bb-8038-42f5-9582-2b3b12aedc0e" />
