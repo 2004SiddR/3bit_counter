@@ -19,3 +19,8 @@ The design synthesizes efficiently onto the FPGA fabric utilizing core primitive
 ## Repository Structure
 * `rtl_3bc/` - Contains the primary design module (`counter3bit_design.v`)
 * `sim_3bc/` - Contains the testbench (`counter3bit_tb.v`) for functional verification
+
+## Simulation Waveform
+![3-Bit Counter Waveform]
+<img width="950" height="200" alt="image" src="https://github.com/user-attachments/assets/6b8efef7-bb09-46cd-8f44-3efab806d45a" />
+
